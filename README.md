@@ -1,3 +1,6 @@
+# written by taegu
+bundle exec jekyll server (for adjust)
+
 # plainwhite
 
 Simplistic jekyll portfolio-style theme for writers.
