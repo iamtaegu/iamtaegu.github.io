@@ -6,9 +6,14 @@
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
             <loc>http://localhost:4000</loc>
-	    <lastmod>2021-10-05T21:08:16+09:00</lastmod>
+	    <lastmod>2021-10-08T13:42:12+09:00</lastmod>
             <priority>1.00</priority>
         </url><url>
+                <loc>http://localhost:4000/corporation/works/2021/10/08/Corporation.html</loc>
+                <lastmod>2021-10-08T00:00:00+09:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url><url>
                 <loc>http://localhost:4000/javascript/nodejs/2021/10/05/InitPost.html</loc>
                 <lastmod>2021-10-05T00:00:00+09:00</lastmod>
                 <changefreq>weekly</changefreq>
