@@ -4,6 +4,9 @@ bundle exec jekyll server (for adjust)
 # Autentification password
 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
 
+# git 
+save: git config --global credential.helper store
+
 # plainwhite
 
 Simplistic jekyll portfolio-style theme for writers.
