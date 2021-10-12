@@ -1,8 +1,8 @@
 # written by taegu
 bundle exec jekyll server (for adjust)
-test
+
 # Autentification password
-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
+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
 
 # git 
 save: git config --global credential.helper store
