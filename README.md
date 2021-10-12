@@ -1,12 +1,6 @@
 # written by taegu
 bundle exec jekyll server (for adjust)
 
-# Autentification password
-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
-
-# git 
-save: git config --global credential.helper store
-
 # plainwhite
 
 Simplistic jekyll portfolio-style theme for writers.
