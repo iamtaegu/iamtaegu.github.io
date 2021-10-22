@@ -1,11 +1,7 @@
 # written by taegu
 bundle exec jekyll server (for adjust)
-
-# Autentification password
-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
-
-# git 
-save: git config --global credential.helper store
+# Personal Access Tokens
+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
 
 # plainwhite
 
