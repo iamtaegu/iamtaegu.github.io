@@ -1,7 +1,7 @@
 # written by taegu
 bundle exec jekyll server (for adjust)
 # Personal Access Tokens
-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
+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
 
 # plainwhite
 
