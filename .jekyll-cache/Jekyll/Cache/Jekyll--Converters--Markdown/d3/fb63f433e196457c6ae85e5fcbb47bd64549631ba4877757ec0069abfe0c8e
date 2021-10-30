@@ -1,4 +1,4 @@
-I"<h3 id="강의-목차">강의 목차</h3>
+I"u<h3 id="강의-목차">강의 목차</h3>
 
 <ol>
   <li>객체 지향 설계와 스프링</li>
@@ -24,6 +24,45 @@
 	* 할인 정책은 모든 VIP는 1000원을 할인해주는 고정 금액 할인을 적용해달라. (나중에 변경 될 수 있다.)
 	* 할인 정책은 변경 가능성이 높다. 회사의 기본 할인 정책을 아직 정하지 못했고, 오픈 직전까지 고민을 미루고 싶다. 최악의 경우 할인을 적용하지 않을 수 도 있다. (미확정)
 </code></pre></div></div>
+
+<h2 id="uml">UML</h2>
+
+<h3 id="회원-다이어그램">회원 다이어그램</h3>
+<p>##</p>
+
+<p>graph TD
+A[Christmas] –&gt;|Get money| B(Go shopping)
+B –&gt; C{Let me think}
+C –&gt;|One| D[Laptop]
+C –&gt;|Two| E[iPhone]
+C –&gt;|Three| F[fa:fa-car Car]</p>
+
+<h3 id="회원-다이어그램-1">회원 다이어그램</h3>
+
+<pre><code class="language-mermaid">graph LR 
+A[&lt;I/F&gt;MemberService]
+C[MemberServiceImpl]--&gt; A
+C[MemberServiceImpl]--&gt; B[&lt;I/F&gt;MemberRepository]
+D[MemoryMemberRepository]--&gt;B
+E[DbMemberRepository]--&gt;B
+</code></pre>
+
+<h3 id="회원-객체-다이어그램">회원 객체 다이어그램</h3>
+<pre><code class="language-mermaid">graph LR 
+A[클라이언트]--&gt;B[회원 서비스] 
+B--&gt;C[메모리 회원 저장소] 
+</code></pre>
+<p>##</p>
+
+<h3 id="주문과-할인-도메인-설계">주문과 할인 도메인 설계</h3>
+
+<pre><code class="language-mermaid">graph LR 
+A[클라이언트]--&gt;B[주문 서비스 구현체] 
+B--&gt;C[DB 회원 저장소] 
+B--&gt;D[할인정책] 
+</code></pre>
+<p>역활들의 협력 관계를 그대로 재사용 할 수 있다 
+##</p>
 
 <h2 id="junit">jUnit</h2>
 

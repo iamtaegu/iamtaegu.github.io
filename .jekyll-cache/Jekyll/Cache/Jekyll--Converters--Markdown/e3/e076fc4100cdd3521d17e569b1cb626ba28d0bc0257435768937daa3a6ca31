@@ -1,0 +1,46 @@
+I"e<h2 id="before-works">Before works</h2>
+
+<ol>
+  <li>디지털금융MBA</li>
+  <li>친구연락</li>
+</ol>
+
+<h2 id="working">Working</h2>
+
+<ol>
+  <li>PP카드 신청 한글 깨짐
+    <ul>
+      <li>UTF8 확인, 이후 처리 정상 확인</li>
+      <li>문제건 발송 처리</li>
+    </ul>
+  </li>
+  <li>RCMS
+    <ul>
+      <li>20211005 청구 파일, 03COC 복원 요청</li>
+      <li>BPRAA014004_003, 20211005 재실행 요청</li>
+    </ul>
+  </li>
+  <li>광주매입IBC</li>
+</ol>
+
+<h2 id="after-works">After works</h2>
+<h2 id="일과-정리--todo리스트-계획">(일과 정리 &amp; todo리스트 계획)</h2>
+
+<ol>
+  <li>일과정리
+    <ul>
+      <li>UPOP5.0 Connection 이슈 확인중</li>
+      <li>RCMS 요청 처리 불가능 안내</li>
+      <li>취약점 일정 목요일 회신 필요</li>
+      <li>UPOP TLS1.2 개발 요건 확인</li>
+      <li>웹 매인원장 토큰 데이터 추가 영향도 파악</li>
+    </ul>
+  </li>
+  <li>todo리스트
+    <ul>
+      <li>에버랜드 일정 기획 &amp; 점심, 저녁 장소 pick</li>
+      <li>카이스트 에세이 작성</li>
+    </ul>
+  </li>
+</ol>
+:ET
