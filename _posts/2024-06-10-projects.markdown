@@ -1,9 +1,18 @@
 ---
 layout: post
 title:  "프로젝트 목록"
-date:   2024-06-19
+date:   2024-06-21
 categories: "프로젝트"
 ---
+
+### RCMS 구축(2024)
+- - -
+1. jasypt spring boot 설정
+	* 민감 정보가 포함 된 프로퍼티는 서버에서 직접 설정을 가지고 있게 한다
+	* jasypt 라이브러리를 사용해서 민감 정보를 암복호화 한다
+		* jasypt는 Password-based Encryption을 사용한다
+		* password는 환경변수로 분리하고, docker-compose 파일에서 설정한다
+2. RestTemplate 커스터마이징 
 
 ### 온누리상품권 계좌등록 플랫폼 (2022)
 - - -
