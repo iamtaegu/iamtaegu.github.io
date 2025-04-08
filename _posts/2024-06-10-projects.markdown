@@ -1,18 +1,32 @@
 ---
 layout: post
-title:  "프로젝트 목록"
-date:   2024-06-21
+title:  "수행 프로젝트 목록"
+date:   2025-04-08
 categories: "프로젝트"
 ---
 
-### RCMS 구축(2024)
+### 연구비 플랫폼 구축/개발/관리(2024~2025)
 - - -
-1. jasypt spring boot 설정
-	* 민감 정보가 포함 된 프로퍼티는 서버에서 직접 설정을 가지고 있게 한다
-	* jasypt 라이브러리를 사용해서 민감 정보를 암복호화 한다
-		* jasypt는 Password-based Encryption을 사용한다
-		* password는 환경변수로 분리하고, docker-compose 파일에서 설정한다
-2. RestTemplate 커스터마이징 
+
+- 사용 언어: Java, JavaScript, HTML
+- 프레임워크 및 라이브러리(mvn depgraph:graph 기준)
+  - 스프링부트(3.2.4)
+  - 스프링부트 tomcat(3.2.4, tomcat:10.1.19)
+  - 스프링부트 WEB(3.2.4, 스프링MVC:6.1.5)
+  - 스프링부트 시큐리티(3.2.4, 스프링시큐리티:6.2.3): 로그인 기능을 위한 스프링 시큐리티 환경 구성
+  - 스프링부트 타임리프(3.2.4, thymeleaf-spring6:3.1.2.RELEASE)
+  - 스프링부트 data-jpa(3.2.4, spring-data-jpa:3.2.4)
+  - 스프링부트 data-redis(3.2.4, spring-data-redis:3.2.4): 세션 저장소 관리를 위한 Valkey 연동 구성 
+  - HikariCP(5.0.1): DB Connection pooling 설정 & DB 멀티 커넥션 환경 구성 
+  - jsaypt(1.9.3): 민감 정보(ex, DB password) HSM 대체 프로세스 구성
+
+- 서버: 온프레미스 VM (리눅스 OS)
+- 운영 환경: Docker, docker-compose
+- 모니터링: ELK(예정)
+- 데이터베이스: Oracle
+- 빌드 툴: Maven
+  - dockerfile-maven-plugin(1.4.13): Docker 이미지 생성 관리
+- 테스트 툴: JUnit, Mockito
 
 ### 온누리상품권 계좌등록 플랫폼 (2022)
 - - -
