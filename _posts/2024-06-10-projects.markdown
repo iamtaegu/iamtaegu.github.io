@@ -5,6 +5,13 @@ date:   2025-04-08
 categories: "프로젝트"
 ---
 
+### 축하 화분/화환 주문 서비스 개발(2025)
+- - - 
+
+  - 사용 언어: TypeScript, JavaScript, HTML
+  - 프레임워크 및 라이브러리: React, React Router, Redux and RTK Query, Material UI, Google Fonts
+  - 서버: AWS Amplify (Serverless)
+
 ### 연구비 플랫폼 구축/개발/관리(2024~2025)
 - - -
 
